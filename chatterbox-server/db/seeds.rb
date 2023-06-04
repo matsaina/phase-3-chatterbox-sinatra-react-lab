@@ -1,6 +1,6 @@
 puts "🌱 Seeding messages..."
 
-Message.create([
+method1 = Message.create([
   {
     body: "Hello 👋",
     username: "Liza"
